@@ -107,7 +107,7 @@ class _HomePageState extends State<HomePage> {
                   Text(
                     'View All',
                     style: TextStyle(
-                      color: Color(0xFFC3C3C3),
+                      color: const Color(0xFFC3C3C3),
                     ),
                   ),
                 ],
@@ -240,10 +240,15 @@ class _HomePageState extends State<HomePage> {
                     favorite: '2k',
                     name: 'Nusa Panida\nIsland',
                   ),
-                  LargeItemWidget(
-                    image: AssetImage('assets/komodo_island.jpg'),
-                    favorite: '1k',
-                    name: 'Komodo\nIsland',
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.of(context).pushNamed('detail');
+                    },
+                    child: LargeItemWidget(
+                      image: AssetImage('assets/komodo_island.jpg'),
+                      favorite: '1k',
+                      name: 'Komodo\nIsland',
+                    ),
                   ),
                 ],
               ),
@@ -263,7 +268,8 @@ class _HomePageState extends State<HomePage> {
                       fontSize: 18,
                     ),
                   ),
-                  Text('View All', style: TextStyle(color: Color(0xFFC3C3C3))),
+                  Text('View All',
+                      style: const TextStyle(color: const Color(0xFFC3C3C3))),
                 ],
               ),
             ),
