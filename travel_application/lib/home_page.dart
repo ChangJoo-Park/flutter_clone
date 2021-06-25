@@ -11,10 +11,11 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      extendBodyBehindAppBar: true,
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
+            backgroundColor: Colors.white,
+            pinned: true,
             leading: Icon(Icons.dashboard, color: const Color(0xFF193C51)),
             title: Row(
               mainAxisAlignment: MainAxisAlignment.center,
