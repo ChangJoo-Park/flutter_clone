@@ -1,0 +1,53 @@
+{
+  "title": "First Poll",
+  "description": "This is the first poll",
+  "minimum": 1,
+  "maximum": 3,
+  "options": [
+    {
+      "id": "person_1",
+      "name": "Person 1",
+      "thumbnail": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+    },
+    {
+      "id": "person_2",
+      "name": "Person 2",
+      "thumbnail": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+    },
+    {
+      "id": "person_3",
+      "name": "Person 3",
+      "thumbnail": "https://images.unsplash.com/photo-1576582842668-ca5c297a5425?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+    },
+    {
+      "id": "person_4",
+      "name": "Person 4",
+      "thumbnail": "https://images.unsplash.com/photo-1574108233269-86d1199d28de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+    },
+    {
+      "id": "person_5",
+      "name": "Person 5",
+      "thumbnail": "https://images.unsplash.com/photo-1546820389-44d77e1f3b31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+    },
+    {
+      "id": "person_6",
+      "name": "Person 6",
+      "thumbnail": "https://images.unsplash.com/photo-1563240619-44ec0047592c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+    },
+    {
+      "id": "person_7",
+      "name": "Person 7",
+      "thumbnail": "https://images.unsplash.com/photo-1577986714916-ceef2af3e2d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+    },
+    {
+      "id": "person_8",
+      "name": "Person 8",
+      "thumbnail": "https://images.unsplash.com/photo-1590895340509-793cb98788c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+    },
+    {
+      "id": "person_9",
+      "name": "Person 9",
+      "thumbnail": "https://images.unsplash.com/photo-1529232356377-57971f020a94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+    }
+  ]
+}
